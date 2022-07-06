@@ -38,3 +38,5 @@ const titulos = peliculas.map(pelicula => {
 })
 const directores_titulos = directores.concat(titulos)
 const directores_titulos_prop = [...directores, ...titulos]
+
+
