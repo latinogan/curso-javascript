@@ -11,4 +11,4 @@ const mayor =fecha > fecha1;
 
 const diafecha1 = fecha1.getDate()
 const mesfecha1 = fecha1.getMonth() + 1
-const añofecha1 = fecha1.getFullYear()
+const añofecha1 = fecha1.getFullYear();
