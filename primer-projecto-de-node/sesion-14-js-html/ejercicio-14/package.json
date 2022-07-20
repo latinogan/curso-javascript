@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejercicio.js",
+  "scripts": {
+    "start":"http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
