@@ -15,6 +15,15 @@ console.log("filterNumArray => ", filterNumArray)
 //numArray =>  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 //filterNumArray =>  [ 6, 7, 8, 9, 10 ]
 
+//ejemplo .filter 2
+const things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
+
+const onlyNumbers = things.filter(thing => {
+  return typeof thing === 'number';
+});
+
+//console.log(onlyNumbers); devuelve solo los numeros dentro del array
+
 
 
 /*  .map   Con map(), podemos tomar todos los nombres de la matriz y añadir el sufijo "man" a todos y cada uno de ellos:*/
@@ -37,3 +46,13 @@ let productos = numeros.map(numero => numero * multiplicador);
 console.log(productos);
 
 // [20, 40, 60, 80]
+
+
+// ejemplo .forEach
+
+const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
+
+artists.forEach(artist => {
+  console.log(artist + ' is one of my favorite artists.');
+});
+// devuelve lo que hay dentro del array mas el string
