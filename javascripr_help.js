@@ -56,3 +56,15 @@ artists.forEach(artist => {
   console.log(artist + ' is one of my favorite artists.');
 });
 // devuelve lo que hay dentro del array mas el string
+
+
+//metodo .findIndex()
+
+//We sometimes want to find the location of an element in an array
+
+onst animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+const foundAnimal= animals.findIndex(animals => {
+  return animals == 'elephant'
+})
+//console.log(foundAnimal) result 7
