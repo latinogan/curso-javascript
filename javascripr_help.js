@@ -34,6 +34,17 @@ let sufijo = "man";
 
 let nombresCompletos = prefijos.map(prefijo => prefijo + sufijo);
 
+
+
+// startsWith
+const countries = ['Norway', 'Sweden',  'Denmark', 'New Zealand'];
+
+const startsWithN = countries.filter((country) => country.startsWith("N"));
+
+console.log(startsWithN);
+
+// Output: [ 'Norway', 'New Zealand' ]
+
 console.log(nombresCompletos);
 
 // ["superman", "spiderman", "antman", "ironman"]
