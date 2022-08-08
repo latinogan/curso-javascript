@@ -92,3 +92,14 @@ return accumulator +currentValue
 } ,10)
 
 console.log(newSum) //26
+
+
+//.STARTSwITH
+
+const countries = ['Norway', 'Sweden',  'Denmark', 'New Zealand'];
+
+const startsWithN = countries.filter((country) => country.startsWith("N"));
+
+console.log(startsWithN);
+
+// Output: [ 'Norway', 'New Zealand' ]
